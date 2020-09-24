@@ -9,12 +9,12 @@ int main() {
   float kmPerH;
   float milePerH;
 
-  cout << "Introduce KM: ";
+  cout << "Introduce mile ";
   cin >> kmPerH;
 
-  milePerH = kmPerH / 1.609344 ;
+  milePerH = 1.609344 * kmPerH;
 
-  cout << kmPerH << " km/h sunt " << milePerH << " mile/h " << endl;
+  cout << milePerH << " mile/h sunt " << kmPerH << " km/h " << endl;
 
   return 0;
 }
