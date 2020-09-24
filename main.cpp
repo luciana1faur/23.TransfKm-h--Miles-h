@@ -12,7 +12,7 @@ int main() {
   cout << "Introduce KM: ";
   cin >> kmPerH;
 
-  milePerH = 1.609344 * kmPerH;
+  milePerH = kmPerH / 1.609344 ;
 
   cout << kmPerH << " km/h sunt " << milePerH << " mile/h " << endl;
 
